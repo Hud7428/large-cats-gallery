@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Large Cats Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .gallery img {
+            height: 300px; /* Set all images to the same height */
+            width: auto; /* Maintains aspect ratio */
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+        .caption {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Large Cats</h1>
+    <div class="gallery">
+        <div>
+            <img src="lioness-public-domain.jpg" alt="Two lionesses in the Mara Triangle">
+            <p class="caption">Lioness - Public Domain (Rawpixel)</p>
+        </div>
+        <div>
+            <img src="leopard-creative-commons.jpg" alt="Leopard in the wild">
+            <p class="caption">Leopard - Creative Commons (Rawpixel)</p>
+        </div>
+        <div>
+            <img src="tiger-public-domain.jpg" alt="Siberian tigress with baby">
+            <p class="caption">Tiger - Public Domain (Rawpixel)</p>
+        </div>
+    </div>
+</body>
+</html>
